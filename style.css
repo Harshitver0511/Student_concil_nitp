@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "futura md bt";
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:#dcd9d9;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+header .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a {
+    display: inline-block;
+    color:#3f3d3d;
+    padding: 5px 0;
+    margin: 0 10px;
+    border: 3px solid transparent;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+header nav ul li a:hover,
+header nav ul li a.active {
+    border-bottom-color: dodgerblue;
+}
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background: #000;
+}
+@media only screen and (max-width: 900px) {
+    header {
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .hamburger {
+        display: block;
+    }
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 70px;
+        width: 100%;
+        background: #fff;
+        padding: 30px;
+        transition: 0.3s;
+    }
+    header #nav_check:checked ~ nav {
+        left: 0;
+    }
+    header nav ul {
+        display: block;
+    }
+    header nav ul li a {
+        margin: 5px 0;
+    }
+}
+.hii{
+    border-radius: .4rem;
+    background-color: blue;
+    padding-bottom: .2rem;
+    padding-top: .2rem;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    color: white;
+    font-size: large;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 5rem;
+    
+
+}
+form{
+    width:40%;
+    height: 70vh;
+    background-color:#e6e6ea;
+    box-shadow: .5rem .5rem .25rem rgb(199,197,197);
+    border-radius: 1rem;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    
+    
+    
+
+}
+.fom{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.harshit{
+    text-align: center;
+    font-size:42;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#email,#password{
+    padding:1rem ;
+    font-size:large;
+    border-radius: .5rem;
+    width: 85%;
+    
+}   
+.sucess{
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    padding:.8rem;
+    font-size: x-large;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color:green;
+} 
+.sucess:hover{
+    background-color: white;
+    color:green ;
+}
+.forget{
+    text-align: center;
+    font-size:large ;
+}
+.vasu{
+    font-size: xx-large;
+    text-align: center;
+    color: #3f3d3d;
+    padding: 2rem;
+    margin-top:1rem ;
+
+}
+.nan{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(212, 209, 209);
+    height: 70px;
+    margin: 2rem;
+    margin-top:0;
+    border-radius: 1.2rem;
+
+}
+.nan p{
+    font-size: x-large;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.nan div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:2rem;
+    padding-bottom: .5rem;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.all .com{
+    height: 100px;
+    width: 95%;
+    background-color: #dcd9d9;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all .com img{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    float: left;
+    padding-left: 1rem;
+
+
+}
+.all .com  div .date{
+    text-align: center;
+
+}
+
+.all .com p{
+    font-size: large;
+    padding: auto;
+    text-align: left;
+}
+.all .com .nandani{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4.7rem;
+    padding-right: 2.5rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:30vh;
+    background-color: #c9c8c8;
+    gap: 1rem;
+}
+.main .child{
+    height: 20vh;
+    width: 27%;
+}
+.main .child h2{
+    text-align: center;
+
+}
+.main .child h3{
+    font-size: large;
+
+}
+.main .child .arya{
+    font-size: larger;
+    padding:2rem;
+
+}
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Heebo", sans-serif;;
+}
+
+body{
+    padding: 10px;
+    background-image: url(background.jpeg);
+}
+
+.topNavbar{
+    color: white;
+    display: flex;
+    background-color: rgb(234, 234, 234, 0.1);
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.navItem{
+    /* margin-right: 0px; */
+    margin-right: 10px;
+}
+
+
+.topNavElement{
+    padding: 5px;
+}
+
+.heading{
+    font-weight: bold;
+    padding-left:200px;
+    padding-right: 200px;
+    font-size: 25px;
+
+    background: -webkit-linear-gradient(#eb04a6, #0099ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.userInfo{
+    /* margin-left: auto; */
+}
+
+.userLogo{
+    border-radius: 50%;
+    overflow: none;
+}
+
+.compBox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: rgb(234, 234, 234, 0.1);
+    width: 30%;
+    border-radius: 20px;
+    height: 100vh;
+    padding: 10px;
+}
+
+.compHeading{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.compBoxItem{
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.compBoxItem:hover{
+    cursor: pointer;
+    background-color: rgb(146, 146, 146);
+}
+
+.compLogo{
+    margin-left: auto;
+}
+
+
+
+.compBoxMain{
+    display: flex;
+}
+
+
+
+
+.compShowbox{
+    /* color: white; */
+    margin: 15px;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 234, 0.1);
+    padding: 10px;
+}
+
+.compShowItem{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(127, 127, 127);
+    margin-top: 10px;
+}
+
+.compTopInfo{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.compInfoBox{
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+
+    background-color: white;
+    margin-top: 10px;
+}
+
+.compOptBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.compOpt{
+    padding: 10px;
+    color: white;
+}
+
+.compOpt:hover{
+    cursor: pointer;
+    color: rgb(222, 222, 222);
+}
+
+.createCompBox{
+    background-image: url(compBox.jpeg);
+    border-radius: 10px;
+    width: 500px;
+    background-size: cover;
+}
+
+.createCompBoxBefore{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: rgb(251, 245, 157);
+    padding: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.createCompBoxAfter{
+    /* display: none; */
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: rgb(251, 245, 157);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.createBoxTop, .createBoxComp{
+    background-color: rgba(255, 255, 255, 0.482);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
