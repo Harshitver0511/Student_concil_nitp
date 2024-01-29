@@ -33,6 +33,6 @@ We encourage collaboration and value your input. If you have ideas, improvements
 
 ## Feedback
 
-We appreciate your feedback! If you encounter any issues, have suggestions, or just want to say hello, feel free to open an [issue](https://github.com/your-username/nitp-students-council/issues).
+We appreciate your feedback! If you encounter any issues, have suggestions, or just want to say hello, feel free to open an [issue](https://github.com/Harshitver0511/Student_concil_nitp.git).
 
 Thank you for being a part of the NITP Students' Council online community! 🎓🌐
