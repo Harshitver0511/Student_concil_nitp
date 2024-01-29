@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Responsive Navbar using HTML & CSS</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Student council NITP</div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" >Home</a>
+                </li>
+                <li>
+                    <a href="">Complain</a>
+                </li>
+                <li>
+                    <a href="" class="active">Login/SignUP</a>
+                </li>
+
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+    <div class="container">
+        <form>
+            <h2 class="harshit">Login</h2>
+            <br>
+            <div class="fom">
+
+            <input type="email" name="email" id="email"   placeholder="Enter your Email">
+            <input type="password" name="password" id="password"   placeholder="Enter your Password">
+            <button class="sucess"> Login</button>
+           
+            </div>
+            <br>
+            <p class="forget">Forget Password ?</p>
+        </form>
+    </div>
+</body>
+</html>
